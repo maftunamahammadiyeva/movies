@@ -8,6 +8,90 @@
   <title>Bootstrap sccs</title>
 </head>
 <body>
+  <main>
+    <div class="container">
+      <h1 class="h1 text-center">Movies Katalog</h1>
+     <div class="d-flex align-baseline">
+      <div>
+        <form action="https://htmlacademy.ru/" method="post">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ave" name="user_name">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"></label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="5" name="user_age">
+          </div>
+
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>All</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Raiting (hight to low)</option>
+            <option value="1">hight</option>
+            <option value="2">low</option>
+            <option value="3">Three</option>
+          </select>
+
+          <button type="submit" class="btn btn-primary w-100">Search</button>
+        </form>
+        <div>
+          <h2 class="h2 opacity-75">Bookmarked movies</h2>
+
+         <ul class="list-unstyled list-group">
+           <li class="list-group-item">
+             <p class="">Avangers Infinity war</p>
+             <button type="button" class="btn btn-danger">Remove</button>
+           </li>
+           <li class="list-group-item">
+            <p class="">Avangers Infinity war</p>
+            <button type="button" class="btn btn-danger">Remove</button>
+          </li>
+          <li class="list-group-item">
+            <p class="">Avangers Infinity war</p>
+            <button type="button" class="btn btn-danger">Remove</button>
+          </li>
+         </ul>
+        </div>
+      </div>
+      <div class="ms-5">
+        <h3>Search results: 39</h3>
+        <button type="button" class="btn btn-primary w-100">Use the form on the left to search more the movies</button>
+
+
+          <div class="row mt-3 gy-5">
+            <div class="col border bg-opacity-10">
+              <img src="./images/download.jpg" alt="images">
+              <h3>Avangers: Infinity War</h3>
+              <p>2018</p>
+              <p>8.7</p>
+              <button type="button" class="btn btn-outline-primary">Watch triller</button>
+              <button type="button" class="btn btn-outline-secondary">More info</button>
+              <button type="button" class="btn btn-outline-secondary">Bookmark</button>
+            </div>
+
+            <div class="col border bg-opacity-10 pb-4">
+              <img src="./images/images.jpg" alt="images">
+              <h3>The Avangers</h3>
+              <p>2012</p>
+              <p>8.1</p>
+              <button type="button" class="btn btn-outline-primary">Watch triller</button>
+              <button type="button" class="btn btn-outline-secondary">More info</button>
+              <button type="button" class="btn btn-outline-secondary">Bookmark</button>
+            </div>
+
+          </div>
+
+
+      </div>
+     </div>
+    </div>
+  </main>
 
 <script src="./js/bootstrap.bundle.js"></script>
 </body>
